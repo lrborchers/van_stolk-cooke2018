@@ -1,0 +1,97 @@
+---
+title: "Replication of Study 'Crowdsourcing Trauma: Psychopathology in a Trauma-Exposed Sample Recruited via Mechanical Turk' (2018, Journal of Traumatic Stress) by Lauren R. Borchers"
+author: "Katherine van Stolk-Cooke, Andrew Brown, Anne Maheux, Justin Parent, Rex Forehand, and Matthew Price. Corresponding author email address: kvanstol@uvm.edu. Personal email address: lrborchers@stanford.edu."
+date: "`r format(Sys.time(), '%B %d, %y')`"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+---
+
+<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+
+##Introduction
+
+As a researcher in Affective Science, I hope to advance the knowledge of psychopathology. It is estimated that 20% of adults in the United States suffers from mental illness and that approximately 8% of the population will suffer from Post-Traumatic Stress Disorder (PTSD) in their lifetime. Therefore, it is a public health priority to identify people at risk for, and currently struggling with PTSD. This knowledge will not only advance our understanding of the prevalence of this often-debilitating condition, but also inform clinicians and scientists alike of the sensitive periods for intervention and treatment. I plan to investigate the manuscript written by van Stolk-Cooke and colleagues (2018) in the Journal of Traumatic Stress, outlining the strength of utilizing Mechanical Turk (MTurk) to identify a higher proportion of people with PTSD compared to college convenience samples. Specifically, this study compared the rate and severity of PTSD in their MTurk sample (n=822) to 35 longitudinal studies reporting the rate and severity of PTSD in college students and veterans. Van Stolk-Cooke et al. found that the severity of PTSD in the MTurk sample was higher compared to collegiate samples, but veterans had the highest rate and symptom severity. I am proposing to recruit participants from both MTurk and the Introduction to Psychology course at Stanford in attempts to investigate whether the findings reported by van Stolk-Cooke et al. replicate. Screening participants for PTSD via online surveys compared to phone/in person interviews will allow me to further interrogate their claims. If findings are consistent across the two studies, then MTurk likely serves as a promising tool for identifying the rate and severity of PTSD symptoms in the population. 
+
+Participants will complete the PTSD Checklist for DSM-5 with Criterion A (PCL-5) and report on their demographic characteristics. Both the online survey and telephone/in person interviews will ask for the following demographic information: sex, race/ethnicity, relationship status, employment status, education, income, and age. I will not match the age range for participants recruited via MTurk to the age of the college students recruited at Stanford because the manuscript written by van Stolk-Cooke et al. had a wide age range of 18 to 82 years old. Although the NIMH reports that the prevalence of mental illness is highest in adolescents (~22%) people over the age of 50 also suffer from mental illness (~15%). Excluding participants on the basis of age would likely change the pattern of results. I will, however, match participants on sex because the aforementioned study did. Inclusion criteria for participants recruited via MTurk and Psych 1 will be based on exposure to a Criterion A traumatic event (e.g. car accident, natural disaster). Van Stolk-Cooke et al. had a licensed clinical psychologist deem whether reported experiences met the Criterion A threshold. Since I lack clinical training, I will condense the opening questions of the PCL-5 to a single yes or no response. If participants indicate they have not been exposed to a stressful experience, then they will be excluded and the survey or interview will end. Further, rather than asking for explicit details surrounding the traumatic event (for both simplicity and logistical reasons), I will ask participants to report on i) the perceived severity, ii) how many years ago the traumatic event occurred iii) whether it involved serious injury iv) how they experienced the trauma (direct exposure; witness; learned about it years later) and v) if the traumatic event resulted in death of a family member, whether or not it was due to natural causes or an accident/violence. Questions 1-20 on the PCL-5 checklist requires participants to report on a Likert scale from 0-4 rather than typing or explaining the details of traumatic experiences. Fortunately, this questionnaire was designed to identify patients with “clinically relevant PTSD symptoms” (a score higher than 33 on the PCL-5), so this replication will not require a clinical psychologist. Further, the majority of results described in the aforementioned paper reported on questions 1-20. Limitations within my replication attempt include: a smaller sample size, a limited battery compared to the initial project, differences in clinical psychology education, and not recruiting a veteran sample. Analyses will include: ANOVAs to compare subgroups within the sample, Chi-Square tests to compare the MTurk sample to the collegiate sample, and independent samples t-tests to compare symptom severity between the participants recruited via MTurk to Psych 1 students. 
+
+##Methods
+
+###Power Analysis
+
+Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
+
+###Planned Sample
+
+Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
+
+###Materials
+
+All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+
+###Procedure	
+
+Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+
+###Analysis Plan
+
+Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+
+**Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do.
+
+###Differences from Original Study
+
+Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+
+### Methods Addendum (Post Data Collection)
+
+You can comment this section out prior to final report with data collection.
+
+#### Actual Sample
+  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+
+#### Differences from pre-data collection methods plan
+  Any differences from what was described as the original plan, or “none”.
+
+
+##Results
+
+
+### Data preparation
+
+Data preparation following the analysis plan.
+	
+```{r include=F}
+###Data Preparation
+
+####Load Relevant Libraries and Functions
+
+####Import data
+
+#### Data exclusion / filtering
+
+#### Prepare data for analysis - create columns etc.
+```
+
+### Confirmatory analysis
+
+The analyses as specified in the analysis plan.  
+
+*Side-by-side graph with original graph is ideal here*
+
+###Exploratory analyses
+
+Any follow-up analyses desired (not required).  
+
+## Discussion
+
+### Summary of Replication Attempt
+
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
